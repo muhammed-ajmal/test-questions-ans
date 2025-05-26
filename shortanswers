@@ -1,0 +1,22 @@
+Short Questions
+1. 2. How do you create a new user with api key based access to all resources in (AWS, GCP,
+Azure or anything else)
+
+Answer: Use IAM roles and policies , eg:- In aws we have IAM services which manages the user roles
+and policies , which allowes to create user with only an api key or console access with restricted permission
+usually it gives AcceKEY AND AWS SECRET KEY
+
+How to resolve a merge conflict in git merge? Write the steps (commands if possible
+otherwise gui steps)
+
+Answer:
+assume conflict branch : xyz
+trying to merge into : main
+
+- git checkout xyz 
+- git pull
+- git pull origin main / git merge main(after pulling latetst changes from main)
+- open any editor and pick the changes want to be in or removed
+- save the files
+- git commit
+- git push xyz
