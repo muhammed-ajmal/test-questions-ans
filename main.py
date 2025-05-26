@@ -1,7 +1,5 @@
-## Token Auth
-## DB : User, analytics
-
-## 
+##NB: DB, and Authentications are not added, just basic request response and endpoint
+## command to run uvicorn main:app --reload
 
 from fastapi import FastAPI, Request, Response, HTTPException
 from requestSchema import AnalyticsRequest, EventTypes
